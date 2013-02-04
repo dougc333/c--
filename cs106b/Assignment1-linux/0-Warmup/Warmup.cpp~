@@ -12,13 +12,7 @@
 #include <iostream>
 #include <string>
 #include "console.h"
-<<<<<<< HEAD
 using namespace std;
-#include "simpio.h"
-=======
-#include "simpio.h"
-using namespace std;
->>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
 
 /* Constants */
 

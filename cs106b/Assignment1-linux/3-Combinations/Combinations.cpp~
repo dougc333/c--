@@ -12,10 +12,6 @@
 #include "simpio.h"
 using namespace std;
 
-<<<<<<< HEAD
-int main() {
-   // [TODO: fill in the code]
-=======
 int factorial(int n){
    if (n==0)
      return 1;
@@ -45,11 +41,10 @@ int main() {
       int c = getInteger("Enter in n");
       int k = getInteger("Enter in k");
      }else{
-      cout<<"combination: "<<comboFormula(c,k)<<endl;
+      cout<<c<<"/"<<k<<" = "<<comboFormula(c,k)<<endl;
       break;
      }
    }
    
->>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
    return 0;
 }

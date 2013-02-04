@@ -13,7 +13,10 @@
 #include "console.h"
 #include "strlib.h"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
 using namespace std;
 
 /* Function prototypes */
@@ -21,6 +24,7 @@ using namespace std;
 string intToString(int n);
 int stringToInt(string str);
 
+<<<<<<< HEAD
 
 
 //recursive implementation 
@@ -50,5 +54,30 @@ int main() {
    cout<<"intToString(1449): "<<intToString(1449)<<endl;
    cout<<"intToString(1): "<<intToString(1)<<endl;
   
+=======
+/* Main program */
+
+
+string intToString(int n){
+  if(n/10 < 1){
+     return integerToString(n%10);
+  }
+  cout<<"greater than 10"<<(n/10)<<endl;
+  cout<<"remainder"<<(n%10)<<endl;
+  //add 2 strings together
+  
+  return "asdf";
+}
+
+int stringToInt(string str){
+
+}
+
+int main() {
+   // [TODO: fill in the code]
+   cout<<"intToString(4): "<<intToString(4)<<endl;  
+   cout<<"intToString(44): "<<intToString(44)<<endl;  
+
+>>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
    return 0;
 }

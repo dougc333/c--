@@ -13,12 +13,16 @@
 #include "simpio.h"
 #include "strlib.h"
 #include "tokenscanner.h"
+<<<<<<< HEAD
 #include <stdio.h>
+=======
+>>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
 
 using namespace std;
 
 /* Main program */
 
+<<<<<<< HEAD
 string obenglobish(string inputLine){
   TokenScanner scanner(inputLine); 
   scanner.scanStrings();
@@ -44,3 +48,40 @@ int main(int arg, char**argv) {
 }
 
 
+=======
+
+string obenglobish(string word){
+   cout<<"str length"<<word.length()<<endl;
+   string temp="";
+   for(int i=0;i<word.length();i++){
+      cout<<"char:"<<word[i]<<endl;
+      if(word[i]=='a' || word[i]=='e' || word[i]=='i' || word[i]=='o' || word[i]=='u'){
+         temp.append("ob");
+         temp.append(&word[i]);
+      }else{
+         temp.append(&word[i]);
+      }
+   } 
+
+   return temp;
+}
+
+string scanString(string word){
+  
+
+}
+
+int main(int argc, char** argv) {
+   // [TODO: fill in the code]
+   while(true){
+      string word = getLine("Enter a word: ");
+      if (word == "") 
+	break;
+      string trans = obenglobish(word);
+      cout<<word<<"->"<<trans<<endl;
+   }
+   
+
+   return 0;
+}
+>>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d

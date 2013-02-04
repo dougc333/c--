@@ -25,7 +25,11 @@
 #  include <unistd.h>
 #endif
 
+<<<<<<< HEAD
 #include <algorithm>
+=======
+// #include <algorithm>
+>>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
 #include <cctype>
 #include <cstdio>
 #include <cstdlib>

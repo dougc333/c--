@@ -14,6 +14,7 @@
 #include "queue.h"
 #include "simpio.h"
 #include "vector.h"
+<<<<<<< HEAD
 #include "lexicon.h"
 using namespace std;
 
@@ -63,5 +64,11 @@ int main() {
  	string destWord = getLine("Enter destination word");
 	findLadder(startWord, destWord);
         //where is the start word? 
+=======
+using namespace std;
+
+int main() {
+	// [TODO: fill in the code]
+>>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
 	return 0;
 }

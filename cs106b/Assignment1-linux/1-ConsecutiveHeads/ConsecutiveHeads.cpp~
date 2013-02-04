@@ -8,35 +8,6 @@
  */
 
 #include <iostream>
-<<<<<<< HEAD
-#include <stdio.h>
-#include <string>
-#include "console.h"
-#include "random.h"
-using namespace std;
-
-int main() {
-   // [TODO: fill in the code]
-   int random=0; 
-   int numHeads=0;	
-   int numTails= 0;
-   
-   while(1){
-     random = randomInteger(0,2);
-     printf("random:%d \n",random);
-     if(random<=1){
-       printf("heads\n");
-       numHeads++;
-       if(numHeads>=3){
-         break;
-       }
-     }else{
-       printf("tails\n");
-       numTails++;
-     }
-   }
-   printf ("numHeads:%d out of total:%d", numHeads, (numHeads+numTails));
-=======
 #include <string>
 #include "console.h"
 #include "random.h"
@@ -60,7 +31,5 @@ int main(int argc, char** argv) {
     }
    }
    cout<<"there are"<<numTails<<" and numHeads:"<<numHeads<<" "<<endl;
- 
->>>>>>> 62b7524b06bb343203dfa4f9c5956faa01a3d73d
    return 0;
 }
